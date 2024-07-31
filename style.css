@@ -1,0 +1,44 @@
+* {
+  margin: none;
+  background-color: rgb(204, 233, 242);
+  padding: auto;
+  justify-content: center;
+}
+.signature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+h1, h3 {
+  text-align: center;
+}
+h1 {
+  font-weight: 900;
+  margin-top: 80px;
+}
+h3{
+  margin-top: 30px;
+}
+.signature-pad {
+  justify-content: center;
+ 
+  margin-right: 8rem;
+  margin-left: 8rem;
+ 
+}
+#signature-pad {
+  border: 2px solid black;
+  background: white;
+}
+#clear, #save {
+ margin: 10px;
+ margin-left: 457px;
+ cursor: pointer;
+ font-size: 20px;
+ size: 10px;
+  
+}
+button:hover{
+  background-color: rgb(131, 207, 255);
+}
